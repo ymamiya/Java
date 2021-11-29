@@ -1,0 +1,12 @@
+import java.util.HashSet;
+
+public class Main {
+  public static void main(String[] args) {
+    HashSet<String> cities = new HashSet<String>();
+    cities.add("川越市");
+    cities.add("さいたま市");
+    cities.add("朝霞市");
+    cities.add("和光市");
+    System.out.println(cities);
+  }
+}
