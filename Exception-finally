@@ -1,0 +1,12 @@
+public class Main {
+  public static void main(String[] args) {
+    try {
+      String[] functionNumber = {1, 2, 3, 4, 5,};
+      System.out.println(functionNumber[7]);
+    } catch (Exception e) {
+      System.out.println("存在しない機能です");
+    } finally {
+      System.out.println("処理を終了します");
+    }
+  }
+}
